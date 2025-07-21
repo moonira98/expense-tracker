@@ -7,7 +7,10 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "scss",
+          "@taiga-ui/core/styles/taiga-ui-theme.less",
+          "@taiga-ui/core/styles/taiga-ui-fonts.less",
+          "@taiga-ui/addon-mobile/styles/taiga-ui-mobile.less"
         }
       },
       "root": "",
